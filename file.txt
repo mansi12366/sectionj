@@ -1,0 +1,15 @@
+pwd
+chown
+chmod
+ls
+mkdir 
+cd filename
+cat 
+echo 
+grep 
+rm 
+touch 
+rmdir 
+less 
+man
+find
