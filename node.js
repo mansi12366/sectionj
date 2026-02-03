@@ -28,6 +28,15 @@
 //     console.log("File written successfully");    
 // })
 
+const fs = require('fs');
 
+try {
+    fs.writeFileSync("prachi.txt", "My name is prachi");
+    console.log("File created successfully");
+} catch (err) {
+    console.log("File not created");
+}
+
+console.log("Main chalungi file create hone ke baad");
 
 
